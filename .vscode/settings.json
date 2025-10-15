@@ -1,0 +1,33 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "username": "root",
+            "connectionTimeout": 60,
+            "name": "Bachleor",
+            "database": "bachleor",
+            "askForPassword": true
+        }
+    ],
+    "editor.formatOnSave": true,
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  
+}
